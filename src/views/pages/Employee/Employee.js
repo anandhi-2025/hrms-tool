@@ -148,7 +148,7 @@ const Employee = () => {
                   </div>
 
                   <div className="">
-                    <p className='mb-0'><b>Rate your self:</b></p>
+                    {/* <p className='mb-0'><b>Rate your self:</b></p> */}
                     {[
                       { label: 'Skill and Achievement', key: 'skillAchievement' },
                       { label: 'Communication', key: 'communication' },
@@ -157,16 +157,16 @@ const Employee = () => {
                       { label: 'Leadership', key: 'leadership' },
                     ].map((item) => (
                       <div className="row mb-3" key={item.key}>
-                        <CFormLabel className="form-label col-sm-6 col-form-label">
+                        {/* <CFormLabel className="form-label col-sm-6 col-form-label">
                           {item.label}
-                        </CFormLabel>
-                        <div className="col-sm-6 mt-2">
+                        </CFormLabel> */}
+                        {/* <div className="col-sm-6 mt-2">
                           <CRating
                             tooltips="{['1', '2', '3', '4', '5']}"
                             value={formData.ratings[item.key]}
                             onChange={(val) => handleRatingChange(item.key, val)}
                           />
-                        </div>
+                        </div> */}
                       </div>
                     ))}
                     {/* <div className='row mb-3'>

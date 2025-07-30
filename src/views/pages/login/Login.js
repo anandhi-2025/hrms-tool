@@ -18,7 +18,7 @@ const Login = () => {
                         </div>
                         <div className='d-block'>
                             <ul className='list-unstyled'>
-                                <li className='mb-3'><Link to="/hr" className='btn btn-primary'>If your a manager HR</Link></li>
+                                <li className='mb-3'><Link to="/hr/review/" className='btn btn-primary'>If your a manager HR</Link></li>
                                 <li className='mb-3'><Link to="/Manager" className='btn btn-primary'>If your a manager Manager</Link></li>
                                 <li className='mb-3'><Link to="/otp" className='btn btn-primary'>If your a manager Employee</Link></li>
                             </ul>
